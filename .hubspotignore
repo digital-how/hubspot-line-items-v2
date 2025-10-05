@@ -1,9 +1,1 @@
-backend/
-*.py
-requirements.txt
-Dockerfile
-docker-compose.yml
-node_modules/
-.git/
-.env*
-.DS_Store
+
