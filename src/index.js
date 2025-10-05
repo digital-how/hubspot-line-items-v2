@@ -1,5 +1,5 @@
-// HubSpot UI Extension - Company Line Items (Build Trigger)
-console.log('Company Line Items Extension v3.1 - Build Trigger');
+// HubSpot UI Extension - Company Line Items (Clean Build)
+console.log('Company Line Items Extension v3.2 - Clean Build');
 
 // Simple extension without React dependencies
 const createExtension = () => {
@@ -15,7 +15,7 @@ const createExtension = () => {
   
   container.innerHTML = `
     <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
-      <h3 style="margin: 0; color: #33475b; font-size: 16px;">Company Line Items v3.1</h3>
+      <h3 style="margin: 0; color: #33475b; font-size: 16px;">Company Line Items v3.2</h3>
       <button onclick="refreshData()" style="
         padding: 6px 12px;
         background: #007acc;
@@ -28,7 +28,7 @@ const createExtension = () => {
     </div>
     <div id="line-items-content">
       <p style="margin: 0; color: #7c98b6; font-size: 14px;">
-        Click refresh to load line items from company deals. (v3.1)
+        Clean build test - Click refresh to load line items. (v3.2)
       </p>
     </div>
   `;
@@ -50,7 +50,7 @@ window.refreshData = function() {
         <small>Qty: 1 × $200.00</small>
       </div>
       <div style="padding: 8px 0; color: #28a745; font-size: 12px;">
-        ✓ Build v3.1 successful!
+        ✓ Clean build v3.2 successful!
       </div>
     </div>
   `;
