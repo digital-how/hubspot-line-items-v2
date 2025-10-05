@@ -1,19 +1,5 @@
 {
-  "name": "line-items-v2",
+  "name": "company-line-items-sidebar-2024",
   "srcDir": "src",
-  "version": "1.0.0",
-  "platformVersion": "2025.2",
-  "description": "Company line items sidebar v2",
-  "uiExtensions": [
-    {
-      "name": "company-line-items-sidebar-2024",
-      "type": "crm.record.sidebar",
-      "objectType": "COMPANIES",
-      "file": "./dist/bundle.js",
-      "meta": {
-        "label": "Line Items",
-        "icon": "line-chart"
-      }
-    }
-  ]
+  "platformVersion": "2025.2"
 }
