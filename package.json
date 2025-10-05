@@ -1,7 +1,7 @@
 {
-  "name": "line-items-v2",
+  "name": "company-line-items-sidebar-2024",
   "version": "1.0.0",
-  "description": "HubSpot UI Extension for company line items v2",
+  "description": "HubSpot UI Extension for company line items",
   "main": "src/index.js",
   "scripts": {
     "build": "webpack --mode production",
