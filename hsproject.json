@@ -3,5 +3,16 @@
   "srcDir": "src",
   "version": "1.0.0",
   "platformVersion": "2025.2",
-  "description": "Company line items sidebar v2"
+  "description": "Company line items sidebar v2",
+  "uiExtensions": [
+    {
+      "type": "crm.record.sidebar",
+      "objectType": "COMPANIES",
+      "file": "./dist/bundle.js",
+      "meta": {
+        "label": "Line Items",
+        "icon": "line-chart"
+      }
+    }
+  ]
 }
