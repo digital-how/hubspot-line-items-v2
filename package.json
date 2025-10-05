@@ -1,0 +1,10 @@
+{
+  "name": "line-items-v2",
+  "version": "1.0.0",
+  "description": "HubSpot UI Extension for company line items v2",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "cp src/index.js dist/bundle.js",
+    "dev": "cp src/index.js dist/bundle.js && echo 'Built successfully'"
+  }
+}
