@@ -6,6 +6,7 @@
   "description": "Company line items sidebar v2",
   "uiExtensions": [
     {
+      "name": "company-line-items-sidebar-2024",
       "type": "crm.record.sidebar",
       "objectType": "COMPANIES",
       "file": "./dist/bundle.js",
